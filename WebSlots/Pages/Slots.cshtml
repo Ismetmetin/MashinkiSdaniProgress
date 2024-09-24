@@ -1,0 +1,30 @@
+﻿@page
+@model SlotsModel
+@{
+    ViewData["Title"] = "Slots Page";
+
+    <title>Машинарник</title>
+    <h1>Тук се въртят машинки!</h1>
+    <br />
+    <body>
+        
+
+        <table class="slot-table centerr">
+            @for (int i = 0; i < Model.Rows; i++)
+            {
+                <tr class="cells">
+                    @for (int j = 0; j < Model.Cols; j++)
+                    {
+                        <td class="cells">
+                            <div> @Model.Matrix[i,j]</div>
+                        </td>
+                    }
+                </tr>
+            }
+        </table>
+        <br>
+        <a class="buttonRoll centerr" asp-area="" asp-page="/Slots">Връткай</a>
+
+    </body>
+}
+

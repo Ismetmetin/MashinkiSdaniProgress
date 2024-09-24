@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSlots", "ConsoleSlots\ConsoleSlots.csproj", "{8E53253E-DC60-44A1-B763-82FE80CC160C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSlots", "WebSlots\WebSlots.csproj", "{A83397F7-B008-452C-B927-A013CB0D578F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E53253E-DC60-44A1-B763-82FE80CC160C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E53253E-DC60-44A1-B763-82FE80CC160C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E53253E-DC60-44A1-B763-82FE80CC160C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E53253E-DC60-44A1-B763-82FE80CC160C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83397F7-B008-452C-B927-A013CB0D578F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83397F7-B008-452C-B927-A013CB0D578F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83397F7-B008-452C-B927-A013CB0D578F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83397F7-B008-452C-B927-A013CB0D578F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38830BC7-6710-4590-A6CD-526ED772F32A}
+	EndGlobalSection
+EndGlobal
